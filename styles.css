@@ -1,0 +1,41 @@
+body {
+    background-color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: left;
+    margin-bottom: 25px; /* Espacio entre el h2 y la línea */
+    transform: translateX(520px);
+}
+
+/* Línea de separación entre h2 y la tabla */
+.separator {
+    width: auto;
+    height: 1.5px;
+    background-color: #b8860b; /* Color amarillo marroncillo */
+    margin: 0 auto 10px auto; /* Centrado y espacio inferior */
+}
+
+/* Contenedor para el borde amarillo alrededor de la tabla */
+.table-container {
+    border: 1px solid yellow; /* Borde amarillo grueso */
+    padding: 0.5px; /* Espacio entre el borde y la tabla */
+    display: inline-block; /* Ajusta el contenedor al tamaño de la tabla */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+table {
+    border: 1px solid blue;
+    border-collapse: separate;
+    border-spacing: 2px; /* Añade separación entre las celdas */
+    margin: 0 auto;
+}
+
+td {
+    text-align: center;
+    padding: 7.5px 30px;
+    border: 1px solid yellow; /* Borde amarillo alrededor de cada celda */
+    color: yellow;
+}
